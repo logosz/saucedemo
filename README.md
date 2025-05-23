@@ -25,3 +25,7 @@ npm install
 ```sh
 npx playwright test
 ```
+- Show the latest report
+```sh
+npx playwright show-report
+```  
