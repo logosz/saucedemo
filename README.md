@@ -2,7 +2,7 @@
 
 ## Description
 This repository was created to fulfill one of the hiring processes at Xtramile.
-This reposiroty was build under mac environment.
+This reposiroty was build under MAC environment.
 
 ## Prerequisite
 - NodeJs
@@ -13,6 +13,7 @@ This reposiroty was build under mac environment.
 - Playwright installation https://playwright.dev/docs/intro
 
 ## How to run the project
+- Make sure NodeJS and Playwright already installed
 - Clone project with command
 ```sh
 git clone git@github.com:logosz/saucedemo.git
