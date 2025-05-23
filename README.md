@@ -29,3 +29,6 @@ npx playwright test
 ```sh
 npx playwright show-report
 ```  
+
+## Screenshot when failed
+Config used to take screenshot when the test is failed. Simulate test case also added.
