@@ -25,4 +25,9 @@ test.describe('login test', () => {
         expect(await loginPage.getErrorMessage()).toContain('Username and password do not match');
     });
 
+    test('Simulate failed test case to check the screenshot', async ({ page }) => {
+        await loginPage.login('locked_out_user','secret_sauce');
+        await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
+    })
+
 })
